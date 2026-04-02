@@ -15,33 +15,35 @@
     --popover: 0 0% 100%;
     --popover-foreground: 210 20% 12%;
 
-    --primary: 174 72% 24%;
+    --primary: 160 75% 24%;
     --primary-foreground: 0 0% 100%;
+    --primary-light: 155 68% 37%;
 
-    --secondary: 170 30% 95%;
-    --secondary-foreground: 174 72% 20%;
+    --secondary: 160 25% 95%;
+    --secondary-foreground: 160 75% 20%;
 
     --muted: 210 20% 96%;
     --muted-foreground: 210 12% 50%;
 
-    --accent: 40 80% 52%;
-    --accent-foreground: 40 90% 12%;
+    --accent: 160 20% 94%;
+    --accent-foreground: 160 75% 20%;
+
+    --cta: 37 87% 55%;
+    --cta-foreground: 37 95% 10%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 210 20% 90%;
     --input: 210 20% 90%;
-    --ring: 174 72% 24%;
+    --ring: 160 75% 24%;
 
     --radius: 0.5rem;
 
     /* Custom tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(174 72% 24%), hsl(180 50% 30%));
+    --hero-gradient: linear-gradient(135deg, hsl(160 75% 24%), hsl(155 68% 37%));
     --surface-elevated: 0 0% 99%;
-    --gold: 40 80% 52%;
-    --gold-foreground: 40 90% 12%;
-    --section-alt: 170 20% 97%;
+    --section-alt: 160 15% 97%;
   }
 
   .dark {
@@ -51,19 +53,22 @@
     --card-foreground: 210 20% 96%;
     --popover: 210 25% 11%;
     --popover-foreground: 210 20% 96%;
-    --primary: 174 60% 40%;
+    --primary: 155 60% 38%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 174 30% 15%;
-    --secondary-foreground: 174 40% 80%;
+    --primary-light: 155 55% 48%;
+    --secondary: 160 25% 15%;
+    --secondary-foreground: 160 35% 80%;
     --muted: 210 20% 15%;
     --muted-foreground: 210 12% 60%;
-    --accent: 40 70% 50%;
-    --accent-foreground: 40 90% 95%;
+    --accent: 160 20% 14%;
+    --accent-foreground: 160 40% 80%;
+    --cta: 37 85% 52%;
+    --cta-foreground: 37 95% 8%;
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 100%;
     --border: 210 20% 18%;
     --input: 210 20% 18%;
-    --ring: 174 60% 40%;
+    --ring: 155 60% 38%;
     --section-alt: 210 25% 10%;
   }
 }
@@ -94,7 +99,7 @@
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, hsl(174 72% 24%), hsl(40 80% 52%));
+    background: linear-gradient(135deg, hsl(160 75% 24%), hsl(37 87% 55%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

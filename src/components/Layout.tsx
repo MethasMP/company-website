@@ -22,9 +22,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 transition-shadow duration-300">
         <div className="container flex h-16 items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2 transition-opacity duration-200 hover:opacity-80">
             <img src={logo} alt="Paycif" className="h-8 w-8" />
             <span className="font-heading text-xl font-bold text-primary">Paycif</span>
           </Link>
@@ -34,8 +34,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Link
                 key={l.to}
                 to={l.to}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  pathname === l.to ? "text-primary" : "text-muted-foreground"
+                className={`relative text-sm font-medium transition-colors duration-200 hover:text-primary after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-primary after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100 ${
+                  pathname === l.to ? "text-primary after:scale-x-100 after:origin-bottom-left" : "text-muted-foreground"
                 }`}
               >
                 {l.label}
@@ -44,7 +44,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </nav>
 
           <button
-            className="md:hidden text-foreground"
+            className="md:hidden text-foreground transition-transform duration-200 active:scale-90"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -52,14 +52,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </button>
         </div>
 
-        {menuOpen && (
-          <nav className="border-t bg-background px-4 pb-4 pt-2 md:hidden">
+        <div
+          className={`overflow-hidden transition-all duration-300 ease-out md:hidden ${
+            menuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <nav className="border-t bg-background px-4 pb-4 pt-2">
             {navLinks.map((l) => (
               <Link
                 key={l.to}
                 to={l.to}
                 onClick={() => setMenuOpen(false)}
-                className={`block py-2 text-sm font-medium ${
+                className={`block py-2 text-sm font-medium transition-colors duration-200 ${
                   pathname === l.to ? "text-primary" : "text-muted-foreground"
                 }`}
               >
@@ -67,7 +71,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             ))}
           </nav>
-        )}
+        </div>
       </header>
 
       <main className="flex-1">{children}</main>
@@ -89,7 +93,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <ul className="space-y-2">
                 {navLinks.map((l) => (
                   <li key={l.to}>
-                    <Link to={l.to} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    <Link to={l.to} className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
                       {l.label}
                     </Link>
                   </li>
@@ -101,7 +105,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <ul className="space-y-2">
                 {legalLinks.map((l) => (
                   <li key={l.to}>
-                    <Link to={l.to} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    <Link to={l.to} className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
                       {l.label}
                     </Link>
                   </li>

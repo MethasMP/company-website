@@ -1,0 +1,71 @@
+import { ScanLine, ArrowRightLeft, RefreshCw, CheckCircle2 } from "lucide-react";
+
+const steps = [
+  {
+    icon: ScanLine,
+    step: "01",
+    title: "Scan the QR Code",
+    description:
+      "The tourist scans the merchant's standard PromptPay QR code using the Paycif platform. No special setup or merchant-side changes are required.",
+  },
+  {
+    icon: ArrowRightLeft,
+    step: "02",
+    title: "Pay in Your Currency",
+    description:
+      "The payment is initiated in the tourist's home currency or through a supported international payment method. The tourist sees the amount in their own currency before confirming.",
+  },
+  {
+    icon: RefreshCw,
+    step: "03",
+    title: "Currency Conversion",
+    description:
+      "Paycif handles the currency conversion from the tourist's currency to Thai Baht at a transparent exchange rate. The conversion is processed securely and in real time.",
+  },
+  {
+    icon: CheckCircle2,
+    step: "04",
+    title: "Merchant Receives THB",
+    description:
+      "The merchant receives the payment in Thai Baht via PromptPay, as they would with any domestic transaction. Settlement is instant.",
+  },
+];
+
+export default function HowItWorks() {
+  return (
+    <div>
+      <section className="hero-gradient py-16">
+        <div className="container">
+          <h1 className="font-heading text-4xl font-bold text-primary-foreground">How It Works</h1>
+          <p className="mt-3 text-primary-foreground/80 max-w-xl">
+            A simple, four-step process that connects tourists to Thailand's PromptPay network.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="container max-w-3xl">
+          <div className="space-y-12">
+            {steps.map((s, i) => (
+              <div key={s.step} className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-heading font-bold text-sm">
+                    {s.step}
+                  </div>
+                  {i < steps.length - 1 && <div className="mt-2 w-px flex-1 bg-border" />}
+                </div>
+                <div className="pb-8">
+                  <div className="flex items-center gap-2 mb-1">
+                    <s.icon className="h-5 w-5 text-primary" />
+                    <h3 className="font-heading text-lg font-semibold text-foreground">{s.title}</h3>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">{s.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

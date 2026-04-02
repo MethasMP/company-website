@@ -89,7 +89,7 @@ export default function Index() {
             Whether you are a merchant looking to accept international payments or a business partner exploring collaboration, we welcome your inquiry.
           </p>
           <div className="mt-8">
-            <Button size="lg" asChild>
+            <Button size="lg" variant="cta" asChild>
               <Link to="/contact">Get in Touch</Link>
             </Button>
           </div>

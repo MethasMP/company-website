@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-import React from "react";
+import React, { forwardRef } from "react";
 
 type AnimationVariant = "fade-up" | "fade-down" | "fade-left" | "fade-right" | "scale" | "fade";
 
@@ -10,7 +10,6 @@ interface AnimatedSectionProps {
   variant?: AnimationVariant;
   delay?: number;
   duration?: number;
-  as?: React.ElementType;
 }
 
 const variantStyles: Record<AnimationVariant, { hidden: string; visible: string }> = {
@@ -46,13 +45,12 @@ export function AnimatedSection({
   variant = "fade-up",
   delay = 0,
   duration = 600,
-  as: Component = "div",
 }: AnimatedSectionProps) {
   const { ref, isVisible } = useScrollAnimation();
   const styles = variantStyles[variant];
 
   return (
-    <Component
+    <div
       ref={ref}
       className={cn(
         "transition-all ease-out",
@@ -65,7 +63,7 @@ export function AnimatedSection({
       }}
     >
       {children}
-    </Component>
+    </div>
   );
 }
 

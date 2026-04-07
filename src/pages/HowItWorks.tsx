@@ -7,28 +7,28 @@ const steps = [
     step: "01",
     title: "Scan the QR Code",
     description:
-      "The tourist scans the merchant's standard PromptPay QR code using the Paycif platform. No special setup or merchant-side changes are required.",
+      "Open Paycif and scan the merchant's standard PromptPay QR code. No app installation or special setup is required on the merchant's side.",
   },
   {
     icon: ArrowRightLeft,
     step: "02",
-    title: "Pay in Your Currency",
+    title: "Review & Confirm",
     description:
-      "The payment is initiated in the tourist's home currency or through a supported international payment method. The tourist sees the amount in their own currency before confirming.",
+      "The payment amount is displayed in both Thai Baht and your home currency. Review the exchange rate and total before confirming.",
   },
   {
     icon: RefreshCw,
     step: "03",
-    title: "Currency Conversion",
+    title: "Automatic Conversion",
     description:
-      "Paycif handles the currency conversion from the tourist's currency to Thai Baht at a transparent exchange rate. The conversion is processed securely and in real time.",
+      "Paycif converts your payment from your currency to Thai Baht at a transparent rate. The conversion happens securely and in real time.",
   },
   {
     icon: CheckCircle2,
     step: "04",
     title: "Merchant Receives THB",
     description:
-      "The merchant receives the payment in Thai Baht via PromptPay, as they would with any domestic transaction. Settlement is instant.",
+      "The merchant receives Thai Baht via PromptPay instantly — exactly as they would from a domestic customer. Transaction complete.",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function HowItWorks() {
           <AnimatedSection variant="fade-up" duration={600}>
             <h1 className="font-heading text-4xl font-bold text-primary-foreground">How It Works</h1>
             <p className="mt-3 text-primary-foreground/80 max-w-xl">
-              A simple, four-step process that connects tourists to Thailand's PromptPay network.
+              Four simple steps — from scanning a QR code to the merchant receiving Thai Baht instantly.
             </p>
           </AnimatedSection>
         </div>

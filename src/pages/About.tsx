@@ -8,7 +8,7 @@ export default function About() {
           <AnimatedSection variant="fade-up" duration={600}>
             <h1 className="font-heading text-4xl font-bold text-primary-foreground">About Us</h1>
             <p className="mt-3 text-primary-foreground/80 max-w-xl">
-              Learn about PAYSIF COMPANY LIMITED and our mission to simplify cross-border payments in Thailand.
+              PAYSIF COMPANY LIMITED — building a payment bridge between international visitors and Thailand's digital economy.
             </p>
           </AnimatedSection>
         </div>
@@ -46,6 +46,18 @@ export default function About() {
               <p className="mt-3 text-muted-foreground leading-relaxed">
                 Our approach requires no changes on the merchant's side — they continue to use their existing PromptPay setup. For tourists, Paycif provides a straightforward payment experience that works with the infrastructure already in place across Thailand.
               </p>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection variant="fade-up" delay={300}>
+            <div>
+              <h2 className="font-heading text-2xl font-bold text-foreground">Our Principles</h2>
+              <ul className="mt-3 text-muted-foreground space-y-3 list-disc pl-5">
+                <li><strong>Transparency:</strong> Exchange rates and fees are clearly disclosed before every transaction.</li>
+                <li><strong>Security:</strong> All data is encrypted and all transactions are monitored for fraud prevention.</li>
+                <li><strong>Compliance:</strong> We operate within the regulatory frameworks established by Thai financial authorities.</li>
+                <li><strong>Simplicity:</strong> No registration barriers for tourists — scan, pay, and go.</li>
+              </ul>
             </div>
           </AnimatedSection>
         </div>

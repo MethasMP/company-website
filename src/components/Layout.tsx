@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import logo from "@/assets/logo.png";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Mail } from "lucide-react";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -78,16 +78,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <footer className="border-t bg-muted/50">
         <div className="container py-12">
-          <div className="grid gap-8 md:grid-cols-3">
-            <div>
+          <div className="grid gap-8 md:grid-cols-4">
+            {/* Brand */}
+            <div className="md:col-span-1">
               <div className="flex items-center gap-2 mb-3">
                 <img src={logo} alt="Paycif" className="h-6 w-6" />
                 <span className="font-heading text-lg font-bold text-primary">Paycif</span>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                A fintech solution by PAYSIF COMPANY LIMITED. Enabling seamless cross-border payments for tourists in Thailand.
+                Enabling seamless cross-border payments for tourists in Thailand via PromptPay.
               </p>
             </div>
+
+            {/* Navigation */}
             <div>
               <h4 className="font-heading font-semibold mb-3 text-foreground">Navigation</h4>
               <ul className="space-y-2">
@@ -100,6 +103,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 ))}
               </ul>
             </div>
+
+            {/* Legal */}
             <div>
               <h4 className="font-heading font-semibold mb-3 text-foreground">Legal</h4>
               <ul className="space-y-2">
@@ -110,6 +115,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     </Link>
                   </li>
                 ))}
+              </ul>
+            </div>
+
+            {/* Contact */}
+            <div>
+              <h4 className="font-heading font-semibold mb-3 text-foreground">Contact</h4>
+              <ul className="space-y-3">
+                <li>
+                  <a href="mailto:contact@paysif.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
+                    <Mail className="h-4 w-4 shrink-0" />
+                    contact@paysif.com
+                  </a>
+                </li>
+                <li className="text-sm text-muted-foreground leading-relaxed">
+                  PAYSIF COMPANY LIMITED<br />
+                  Bangkok, Thailand
+                </li>
               </ul>
             </div>
           </div>

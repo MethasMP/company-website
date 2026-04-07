@@ -8,22 +8,22 @@ const benefits = [
   {
     icon: Globe,
     title: "Pay in Your Currency",
-    description: "Use your home currency or preferred digital wallet to pay Thai merchants directly.",
+    description: "Use your home currency or preferred digital wallet to pay Thai merchants directly — no currency exchange needed.",
   },
   {
     icon: Zap,
     title: "Instant Settlement",
-    description: "Merchants receive Thai Baht instantly via PromptPay, ensuring a smooth transaction experience.",
+    description: "Merchants receive Thai Baht instantly via PromptPay. No waiting, no delays.",
   },
   {
     icon: Banknote,
     title: "Cash-Light Travel",
-    description: "Reduce reliance on physical cash and avoid the inconvenience of currency exchange counters.",
+    description: "Skip the ATM queues and currency exchange counters. Pay digitally wherever PromptPay QR is accepted.",
   },
   {
     icon: Shield,
     title: "Secure & Compliant",
-    description: "Transactions are processed with robust security measures and regulatory compliance in mind.",
+    description: "Every transaction is encrypted, monitored, and processed in accordance with Thai financial regulations.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function Index() {
             </AnimatedSection>
             <AnimatedSection variant="fade-up" delay={150} duration={700}>
               <p className="mt-4 text-lg text-primary-foreground/90 md:text-xl leading-relaxed">
-                Pay Thai merchants via PromptPay QR using your home currency — no local bank account required.
+                Scan any PromptPay QR code and pay in your home currency — no Thai bank account, no cash, no hassle.
               </p>
             </AnimatedSection>
             <AnimatedSection variant="fade-up" delay={300} duration={700}>
@@ -56,7 +56,7 @@ export default function Index() {
             <AnimatedSection variant="fade-up" delay={450} duration={700}>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button size="lg" variant="secondary" className="hover-scale" asChild>
-                  <Link to="/how-it-works">Learn How It Works</Link>
+                  <Link to="/how-it-works">See How It Works</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground hover-scale" asChild>
                   <Link to="/contact">Contact Us</Link>
@@ -73,7 +73,7 @@ export default function Index() {
           <AnimatedSection className="text-center max-w-2xl mx-auto mb-14">
             <h2 className="font-heading text-3xl font-bold text-foreground">Why Choose Paycif</h2>
             <p className="mt-3 text-muted-foreground">
-              Designed to address the real challenges foreign visitors face when making payments in Thailand.
+              Built to solve the real payment challenges foreign visitors face every day in Thailand.
             </p>
           </AnimatedSection>
           <StaggerChildren className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" staggerDelay={120}>
@@ -94,9 +94,9 @@ export default function Index() {
       <section className="py-20">
         <div className="container text-center">
           <AnimatedSection variant="scale">
-            <h2 className="font-heading text-3xl font-bold text-foreground">Ready to Get Started?</h2>
+            <h2 className="font-heading text-3xl font-bold text-foreground">Interested in Paycif?</h2>
             <p className="mt-3 mx-auto max-w-lg text-muted-foreground">
-              Whether you are a merchant looking to accept international payments or a business partner exploring collaboration, we welcome your inquiry.
+              Whether you are a merchant looking to accept international payments or a partner exploring collaboration opportunities, we would like to hear from you.
             </p>
             <div className="mt-8">
               <Button size="lg" variant="cta" className="hover-scale" asChild>

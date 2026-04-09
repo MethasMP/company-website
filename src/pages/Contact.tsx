@@ -36,7 +36,7 @@ const contactItems = [
     content: (
       <p className="mt-1 text-muted-foreground text-sm leading-relaxed">
         PAYSIF COMPANY LIMITED<br />
-        Bangkok, Thailand
+        Prachin Buri, Thailand
       </p>
     ),
   },

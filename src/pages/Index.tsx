@@ -58,7 +58,7 @@ export default function Index() {
                 <Button size="lg" variant="secondary" className="hover-scale" asChild>
                   <Link to="/how-it-works">See How It Works</Link>
                 </Button>
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground hover-scale" asChild>
+                <Button size="lg" variant="outline" className="border-primary-foreground/50 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 hover:text-primary-foreground hover-scale" asChild>
                   <Link to="/contact">Contact Us</Link>
                 </Button>
               </div>

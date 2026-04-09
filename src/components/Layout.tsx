@@ -130,7 +130,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </li>
                 <li className="text-sm text-muted-foreground leading-relaxed">
                   PAYSIF COMPANY LIMITED<br />
-                  Bangkok, Thailand
+                  Prachin Buri, Thailand
                 </li>
               </ul>
             </div>

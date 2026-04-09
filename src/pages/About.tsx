@@ -20,10 +20,10 @@ export default function About() {
             <div>
               <h2 className="font-heading text-2xl font-bold text-foreground">Company Overview</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                PAYSIF COMPANY LIMITED is a fintech company registered in Thailand. We develop Paycif, a digital payment platform that enables foreign tourists to transact with Thai merchants using Thailand's PromptPay QR infrastructure — without the need for a local bank account.
+                PAYSIF COMPANY LIMITED is a fintech company registered in Thailand. We develop Paycif, a digital payment platform that lets foreign tourists pay at Thai shops, restaurants, and markets by scanning standard PromptPay QR codes — without needing a Thai bank account.
               </p>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Thailand's PromptPay system is the country's primary digital payment method, widely used from street vendors and local markets to retail chains and hospitality businesses. However, this system has remained largely inaccessible to international visitors. Paycif addresses this gap by providing a secure and compliant payment bridge between foreign currencies and Thailand's domestic payment network.
+                Thailand's PromptPay system is the country's primary payment method, used everywhere from street food stalls and local markets to retail chains and hotels. However, it has remained inaccessible to international visitors. Paycif bridges this gap — letting tourists pay merchants directly in their home currency while the merchant receives Thai Baht instantly.
               </p>
             </div>
           </AnimatedSection>

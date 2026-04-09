@@ -5,30 +5,30 @@ const steps = [
   {
     icon: ScanLine,
     step: "01",
-    title: "Scan the QR Code",
+    title: "Scan the Merchant's QR",
     description:
-      "At any shop, restaurant, or market, open Paycif and scan the merchant's PromptPay QR code. No setup needed on the merchant's side.",
+      "You're at a shop, restaurant, or market. The merchant has a PromptPay QR code — the same one Thai locals use. Open Paycif and scan it.",
   },
   {
     icon: ArrowRightLeft,
     step: "02",
-    title: "Review & Confirm",
+    title: "See the Price in Your Currency",
     description:
-      "The payment amount is displayed in both Thai Baht and your home currency. Review the exchange rate and total before confirming.",
+      "Paycif shows you the amount in both Thai Baht and your home currency, along with the exchange rate and any fees — before you confirm.",
   },
   {
     icon: RefreshCw,
     step: "03",
-    title: "Automatic Conversion",
+    title: "Confirm & Pay",
     description:
-      "Paycif converts your payment from your currency to Thai Baht at a transparent rate. The conversion happens securely and in real time.",
+      "Tap to confirm. Paycif converts your payment to Thai Baht in real time and sends it to the merchant via PromptPay.",
   },
   {
     icon: CheckCircle2,
     step: "04",
-    title: "Merchant Receives THB",
+    title: "Merchant Gets Paid Instantly",
     description:
-      "The merchant receives Thai Baht via PromptPay instantly — just like receiving payment from a local customer. Your purchase is complete.",
+      "The merchant receives Thai Baht in their account within seconds — the same notification they'd see from any local customer. Done.",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function HowItWorks() {
           <AnimatedSection variant="fade-up" duration={600}>
             <h1 className="font-heading text-4xl font-bold text-primary-foreground">How It Works</h1>
             <p className="mt-3 text-primary-foreground/80 max-w-xl">
-              Four simple steps — from scanning a QR code to the merchant receiving Thai Baht instantly.
+              You scan a QR. You pay in your currency. The merchant gets Thai Baht. Four steps, a few seconds.
             </p>
           </AnimatedSection>
         </div>
@@ -69,6 +69,16 @@ export default function HowItWorks() {
               </AnimatedSection>
             ))}
           </div>
+
+          {/* Key differentiator */}
+          <AnimatedSection variant="fade-up" delay={600}>
+            <div className="mt-16 rounded-lg border bg-accent/50 p-6">
+              <h3 className="font-heading font-semibold text-foreground">What makes this different?</h3>
+              <p className="mt-2 text-muted-foreground leading-relaxed text-sm">
+                Unlike tourist payment apps that require merchants to sign up or install new equipment, Paycif works with the PromptPay QR that's already there. The merchant doesn't know or care that you're a tourist — they just see a normal PromptPay payment in Thai Baht.
+              </p>
+            </div>
+          </AnimatedSection>
         </div>
       </section>
     </div>

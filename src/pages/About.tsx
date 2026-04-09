@@ -8,7 +8,7 @@ export default function About() {
           <AnimatedSection variant="fade-up" duration={600}>
             <h1 className="font-heading text-4xl font-bold text-primary-foreground">About Us</h1>
             <p className="mt-3 text-primary-foreground/80 max-w-xl">
-              PAYSIF COMPANY LIMITED — enabling tourists to pay at Thai shops and restaurants using their home currency.
+              We build the bridge that lets tourists use Thailand's PromptPay QR system — the same way locals do.
             </p>
           </AnimatedSection>
         </div>
@@ -18,33 +18,33 @@ export default function About() {
         <div className="container max-w-3xl space-y-12">
           <AnimatedSection variant="fade-up" delay={0}>
             <div>
-              <h2 className="font-heading text-2xl font-bold text-foreground">Company Overview</h2>
+              <h2 className="font-heading text-2xl font-bold text-foreground">The Problem We Solve</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                PAYSIF COMPANY LIMITED is a fintech company registered in Thailand. We develop Paycif, a digital payment platform that lets foreign tourists pay at Thai shops, restaurants, and markets by scanning standard PromptPay QR codes — without needing a Thai bank account.
+                Thailand runs on PromptPay. It's the QR code you see at every food stall, taxi, convenience store, and hotel front desk. Locals scan it with their banking app, and the merchant gets paid in seconds.
               </p>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Thailand's PromptPay system is the country's primary payment method, used everywhere from street food stalls and local markets to retail chains and hotels. However, it has remained inaccessible to international visitors. Paycif bridges this gap — letting tourists pay merchants directly in their home currency while the merchant receives Thai Baht instantly.
+                But if you're a tourist without a Thai bank account, that QR code is useless to you. You're left carrying cash, finding ATMs, and paying foreign exchange markups — while the payment infrastructure you need is already right in front of you.
               </p>
             </div>
           </AnimatedSection>
 
           <AnimatedSection variant="fade-up" delay={100}>
             <div>
-              <h2 className="font-heading text-2xl font-bold text-foreground">Our Mission</h2>
+              <h2 className="font-heading text-2xl font-bold text-foreground">What Paycif Does</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                To make everyday spending in Thailand effortless for foreign visitors. We aim to eliminate the need for carrying cash, remove the hassle of currency exchange, and let tourists pay at any PromptPay merchant as easily as a local — while ensuring merchants receive Thai Baht instantly and securely.
+                Paycif lets tourists scan any existing PromptPay QR code and pay in their home currency. We handle the currency conversion in real time, and the merchant receives Thai Baht instantly via PromptPay — exactly as if a local customer paid them.
+              </p>
+              <p className="mt-3 text-muted-foreground leading-relaxed">
+                No special setup for merchants. No new QR codes. No new hardware. The tourist pays in their currency; the merchant gets Baht. That's it.
               </p>
             </div>
           </AnimatedSection>
 
           <AnimatedSection variant="fade-up" delay={200}>
             <div>
-              <h2 className="font-heading text-2xl font-bold text-foreground">What We Do</h2>
+              <h2 className="font-heading text-2xl font-bold text-foreground">Our Mission</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                When a tourist wants to pay at a shop or restaurant, they simply open Paycif, scan the merchant's PromptPay QR code, and confirm the payment in their home currency. Paycif handles the currency conversion and delivers Thai Baht to the merchant's account — just like a domestic payment.
-              </p>
-              <p className="mt-3 text-muted-foreground leading-relaxed">
-                Merchants do not need any special setup — they use the same PromptPay QR they already have. For tourists, it works like paying with a local wallet at any shop, café, market, or hotel across Thailand.
+                To make paying at Thai merchants as easy for tourists as it is for locals. We believe visitors shouldn't need to carry large amounts of cash, hunt for ATMs, or worry about exchange rates at every purchase. With PromptPay QR already everywhere, all we needed to build was the bridge.
               </p>
             </div>
           </AnimatedSection>
@@ -53,11 +53,20 @@ export default function About() {
             <div>
               <h2 className="font-heading text-2xl font-bold text-foreground">Our Principles</h2>
               <ul className="mt-3 text-muted-foreground space-y-3 list-disc pl-5">
-                <li><strong>Transparency:</strong> Exchange rates and fees are clearly disclosed before every transaction.</li>
-                <li><strong>Security:</strong> All data is encrypted and all transactions are monitored for fraud prevention.</li>
+                <li><strong>Transparency:</strong> Exchange rate and fees are shown before you confirm — no hidden charges.</li>
+                <li><strong>Security:</strong> All transactions are encrypted and monitored for fraud prevention.</li>
                 <li><strong>Compliance:</strong> We operate within the regulatory frameworks established by Thai financial authorities.</li>
-                <li><strong>Simplicity:</strong> No registration barriers for tourists — scan, pay, and go.</li>
+                <li><strong>Zero friction for merchants:</strong> Merchants don't need to sign up, install anything, or change their QR code.</li>
               </ul>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection variant="fade-up" delay={400}>
+            <div>
+              <h2 className="font-heading text-2xl font-bold text-foreground">Company Information</h2>
+              <p className="mt-3 text-muted-foreground leading-relaxed">
+                PAYSIF COMPANY LIMITED is a fintech company registered in Thailand, dedicated to improving the tourist payment experience through PromptPay QR technology.
+              </p>
             </div>
           </AnimatedSection>
         </div>

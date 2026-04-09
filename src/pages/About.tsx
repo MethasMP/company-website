@@ -41,10 +41,10 @@ export default function About() {
             <div>
               <h2 className="font-heading text-2xl font-bold text-foreground">What We Do</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Paycif processes cross-border payments by allowing tourists to scan standard PromptPay QR codes and pay using their home currency or supported international payment methods. The platform handles currency conversion and routes the payment to the merchant's PromptPay-linked account in Thai Baht.
+                When a tourist wants to pay at a shop or restaurant, they simply open Paycif, scan the merchant's PromptPay QR code, and confirm the payment in their home currency. Paycif handles the currency conversion and delivers Thai Baht to the merchant's account — just like a domestic payment.
               </p>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Our approach requires no changes on the merchant's side — they continue to use their existing PromptPay setup. For tourists, Paycif provides a straightforward payment experience that works with the infrastructure already in place across Thailand.
+                Merchants do not need any special setup — they use the same PromptPay QR they already have. For tourists, it works like paying with a local wallet at any shop, café, market, or hotel across Thailand.
               </p>
             </div>
           </AnimatedSection>

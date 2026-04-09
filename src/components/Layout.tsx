@@ -86,7 +86,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <span className="font-heading text-lg font-bold text-primary">Paycif</span>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Enabling seamless cross-border payments for tourists in Thailand via PromptPay.
+                Pay at Thai shops, restaurants, and markets using your home currency via PromptPay.
               </p>
             </div>
 

@@ -28,7 +28,7 @@ const steps = [
     step: "04",
     title: "Merchant Receives THB",
     description:
-      "The merchant receives Thai Baht via PromptPay instantly — exactly as they would from a domestic customer. Transaction complete.",
+      "The merchant receives Thai Baht via PromptPay instantly — just like receiving payment from a local customer. Your purchase is complete.",
   },
 ];
 

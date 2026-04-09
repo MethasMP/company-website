@@ -8,7 +8,7 @@ const benefits = [
   {
     icon: Globe,
     title: "Pay in Your Currency",
-    description: "Use your home currency or preferred digital wallet to pay Thai merchants directly — no currency exchange needed.",
+    description: "Pay at any Thai shop or restaurant in your home currency — the merchant receives Thai Baht instantly.",
   },
   {
     icon: Zap,
@@ -18,7 +18,7 @@ const benefits = [
   {
     icon: Banknote,
     title: "Cash-Light Travel",
-    description: "Skip the ATM queues and currency exchange counters. Pay digitally wherever PromptPay QR is accepted.",
+    description: "Skip ATM queues and currency exchange counters. Pay digitally at shops, markets, and restaurants across Thailand.",
   },
   {
     icon: Shield,

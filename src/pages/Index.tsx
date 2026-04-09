@@ -40,17 +40,17 @@ export default function Index() {
           <div className="max-w-2xl">
             <AnimatedSection variant="fade-up" duration={700}>
               <h1 className="font-heading text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-                Seamless Payments for Tourists in Thailand
+                Pay Thai Merchants Directly from Your Phone
               </h1>
             </AnimatedSection>
             <AnimatedSection variant="fade-up" delay={150} duration={700}>
               <p className="mt-4 text-lg text-primary-foreground/90 md:text-xl leading-relaxed">
-                Scan any PromptPay QR code and pay in your home currency — no Thai bank account, no cash, no hassle.
+                Scan any PromptPay QR at shops, restaurants, and markets — pay in your home currency, no Thai bank account needed.
               </p>
             </AnimatedSection>
             <AnimatedSection variant="fade-up" delay={300} duration={700}>
               <p className="mt-4 text-primary-foreground/75 leading-relaxed max-w-xl">
-                Paycif bridges Thailand's national payment infrastructure with international visitors, enabling a smooth, cash-light travel experience across the country.
+                Paycif lets tourists pay at any PromptPay-accepting merchant across Thailand — from street food stalls to hotel lobbies — without carrying cash or exchanging currency.
               </p>
             </AnimatedSection>
             <AnimatedSection variant="fade-up" delay={450} duration={700}>

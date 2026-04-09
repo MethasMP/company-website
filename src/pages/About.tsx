@@ -32,7 +32,7 @@ export default function About() {
             <div>
               <h2 className="font-heading text-2xl font-bold text-foreground">Our Mission</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                To enhance the travel experience in Thailand by enabling cash-light payments for foreign visitors. We aim to reduce reliance on physical cash, eliminate the inconvenience of manual currency exchange, and simplify day-to-day transactions for tourists — while ensuring merchants receive payments instantly and securely in Thai Baht.
+                To make everyday spending in Thailand effortless for foreign visitors. We aim to eliminate the need for carrying cash, remove the hassle of currency exchange, and let tourists pay at any PromptPay merchant as easily as a local — while ensuring merchants receive Thai Baht instantly and securely.
               </p>
             </div>
           </AnimatedSection>

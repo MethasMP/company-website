@@ -8,7 +8,7 @@ export default function About() {
           <AnimatedSection variant="fade-up" duration={600}>
             <h1 className="font-heading text-4xl font-bold text-primary-foreground">About Us</h1>
             <p className="mt-3 text-primary-foreground/80 max-w-xl">
-              PAYSIF COMPANY LIMITED — building a payment bridge between international visitors and Thailand's digital economy.
+              PAYSIF COMPANY LIMITED — enabling tourists to pay at Thai shops and restaurants using their home currency.
             </p>
           </AnimatedSection>
         </div>

@@ -7,7 +7,7 @@ const steps = [
     step: "01",
     title: "Scan the QR Code",
     description:
-      "Open Paycif and scan the merchant's standard PromptPay QR code. No app installation or special setup is required on the merchant's side.",
+      "At any shop, restaurant, or market, open Paycif and scan the merchant's PromptPay QR code. No setup needed on the merchant's side.",
   },
   {
     icon: ArrowRightLeft,
@@ -28,7 +28,7 @@ const steps = [
     step: "04",
     title: "Merchant Receives THB",
     description:
-      "The merchant receives Thai Baht via PromptPay instantly — exactly as they would from a domestic customer. Transaction complete.",
+      "The merchant receives Thai Baht via PromptPay instantly — just like receiving payment from a local customer. Your purchase is complete.",
   },
 ];
 

@@ -7,7 +7,7 @@ const steps = [
     step: "01",
     title: "Scan the QR Code",
     description:
-      "Open Paycif and scan the merchant's standard PromptPay QR code. No app installation or special setup is required on the merchant's side.",
+      "At any shop, restaurant, or market, open Paycif and scan the merchant's PromptPay QR code. No setup needed on the merchant's side.",
   },
   {
     icon: ArrowRightLeft,

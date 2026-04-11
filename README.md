@@ -1,52 +1,83 @@
 # Paycif - Scan PromptPay QR. Pay in Your Currency.
 
-**เว็บไซต์บริษัท Paycif** - โซลูชันการชำระเงินสำหรับนักท่องเที่ยวในประเทศไทย
-
-## เกี่ยวกับเรา
-
-Paycif คือบริการที่ช่วยให้นักท่องเที่ยวสามารถสแกนและชำระผ่าน PromptPay QR Code ได้เหมือนคนไทย เพียงแค่จ่ายเป็นสกุลเงินของตัวเอง ในขณะที่ร้านค้าได้รับเงินบาททันที
-
-### ปัญหาที่เราแก้
-
-- นักท่องเที่ยวไม่สามารถใช้ PromptPay QR Code ได้เพราะไม่มีบัญชีธนาคารไทย
-- ต้องถือเงินสดจำนวนมาก หรือหาตู้ ATM
-- อัตราแลกเปลี่ยนที่ไม่ชัดเจน และค่าธรรมเนียมสูง
-
-### วิธีทำงาน
-
-1. **Scan & Pay Like a Local** - สแกน QR Code PromptPay ใดๆ ก็ได้
-2. **You Pay in Your Currency** - จ่ายเป็นสกุลเงินของคุณเอง
-3. **Merchant Gets Paid Instantly** - ร้านค้าได้รับเงินบาททันทีผ่าน PromptPay
-4. **Transparent & Secure** - อัตราแลกเปลี่ยนและค่าธรรมเนียมแสดงชัดเจนก่อนยืนยัน
-
-## หน้าเว็บไซต์
-
-| หน้า | คำอธิบาย |
-|------|----------|
-| [หน้าหลัก](/) | ข้อมูลเกี่ยวกับบริการและประโยชน์ของ Paycif |
-| [เกี่ยวกับเรา](/about) | วิสัยทัศน์ ภารกิจ และหลักการของบริษัท |
-| [วิธีการใช้งาน](/how-it-works) | ขั้นตอนการใช้งาน Paycif สำหรับนักท่องเที่ยว |
-| [ติดต่อเรา](/contact) | ช่องทางการติดต่อสำหรับลูกค้าและพาร์ทเนอร์ |
-| [นโยบาย AML](/aml-policy) | นโยบายต่อต้านการฟอกเงิน |
-| [ความเป็นส่วนตัว](/privacy) | นโยบายความเป็นส่วนตัว |
-| [ข้อกำหนดการใช้บริการ](/terms) | ข้อกำหนดและเงื่อนไข |
-
-## เทคโนโลยีที่ใช้
-
-เว็บไซต์นี้พัฒนาด้วย:
-- React 18 + TypeScript
-- Vite
-- Tailwind CSS + shadcn/ui
-- React Router
-- Lucide Icons
-
-## การติดต่อ
-
-**PAYSIF COMPANY LIMITED**  
-บริษัทจดทะเบียนในประเทศไทย
-
-สนใจเป็นพาร์ทเนอร์หรือมีคำถาม? [ติดต่อเรา](/contact)
+**The seamless payment solution for tourists in Thailand.**
 
 ---
 
-© 2024 Paycif. สงวนลิขสิทธิ์.
+## About Paycif
+
+Paycif empowers international travelers to explore Thailand with confidence. Simply scan any PromptPay QR code and pay instantly in your home currency—no Thai Baht needed, no hidden fees, no stress.
+
+We bridge the gap between Thailand's digital payment ecosystem and global travelers, making every transaction feel local while keeping you connected to your own currency.
+
+---
+
+## The Problem We Solve
+
+Traveling should be about experiences, not financial anxiety. Here's what we fix:
+
+### 💸 **Running Low on Cash?**
+ATMs are everywhere—but finding one when you need it most? Not always. Long queues, limited operating hours, or simply being in a remote area can leave you stranded without cash. With Paycif, your phone is your wallet. Scan and pay anywhere PromptPay is accepted.
+
+### 🏧 **Avoid ATM Hassles**
+Skip the lines, avoid withdrawal limits, and eliminate the stress of carrying large amounts of cash. Paycif lets you pay directly from your home currency account—securely and instantly.
+
+### 🛍️ **Shop & Dine Freely**
+From street food vendors to luxury boutiques, millions of Thai merchants accept PromptPay. With Paycif, you can join the cashless revolution without needing a Thai bank account.
+
+---
+
+## How It Works
+
+1. **Scan** - Point your camera at any PromptPay QR code
+2. **Confirm** - See the amount in your home currency instantly
+3. **Pay** - One-tap confirmation, done in seconds
+4. **Explore** - Continue your journey, cash-free
+
+---
+
+## Why Travelers Love Paycif
+
+✅ **No Cash Needed** - Leave the ATM hunts behind  
+✅ **Transparent Pricing** - Know exactly what you're paying in your currency  
+✅ **Instant Transactions** - Real-time payments, real-time peace of mind  
+✅ **Wide Acceptance** - Works wherever PromptPay is accepted across Thailand  
+✅ **Secure & Trusted** - Bank-level encryption and compliance  
+
+---
+
+## Website Pages
+
+| Page | Description | Route |
+|------|-------------|-------|
+| Home | Landing page with value proposition and CTA | `/` |
+| How It Works | Step-by-step guide for users | `/how-it-works` |
+| For Travelers | Benefits and features for tourists | `/travelers` |
+| For Merchants | Information for Thai businesses | `/merchants` |
+| Security | Trust and compliance information | `/security` |
+| FAQ | Common questions answered | `/faq` |
+| Contact | Get in touch with support | `/contact` |
+| About Us | Company information | `/about` |
+
+---
+
+## Built With Modern Technology
+
+- **Frontend**: React 18 + TypeScript + Vite
+- **Styling**: Tailwind CSS + shadcn/ui
+- **State Management**: TanStack Query (React Query)
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+
+---
+
+## Contact Us
+
+**PAYSIF COMPANY LIMITED**  
+📍 Bangkok, Thailand  
+📧 support@paycif.com  
+🌐 www.paycif.com
+
+---
+
+*Travel smarter. Pay simpler. Experience Thailand without boundaries.*

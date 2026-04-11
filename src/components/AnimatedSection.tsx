@@ -53,14 +53,16 @@ export function AnimatedSection({
     <div
       ref={ref}
       className={cn(
-        "transition-all ease-out",
+        "transition-all ease-out will-change-transform",
         isVisible ? styles.visible : styles.hidden,
         className
       )}
       style={{
         transitionDuration: `${duration}ms`,
         transitionDelay: `${delay}ms`,
+        willChange: isVisible ? "auto" : "transform, opacity",
       }}
+      aria-hidden={!isVisible}
     >
       {children}
     </div>
@@ -90,13 +92,15 @@ export function StaggerChildren({
       {React.Children.map(children, (child, index) => (
         <div
           className={cn(
-            "transition-all ease-out",
+            "transition-all ease-out will-change-transform",
             isVisible ? styles.visible : styles.hidden
           )}
           style={{
             transitionDuration: `${duration}ms`,
             transitionDelay: `${index * staggerDelay}ms`,
+            willChange: isVisible ? "auto" : "transform, opacity",
           }}
+          aria-hidden={!isVisible}
         >
           {child}
         </div>

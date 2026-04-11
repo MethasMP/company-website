@@ -1,83 +1,96 @@
 # Paycif - Scan PromptPay QR. Pay in Your Currency.
 
-**The seamless payment solution for tourists in Thailand.**
+**For Tourists in Thailand**
+
+Every shop, restaurant, and market in Thailand has a PromptPay QR code — but it only works with Thai bank accounts. Until now.
+
+Paycif lets you scan any PromptPay QR and pay in your home currency. The merchant receives Thai Baht instantly — no cash needed.
+
+🌐 **Website:** [https://paysif.lovable.app](https://paysif.lovable.app)
 
 ---
 
-## About Paycif
+## The Problem: Running Low on Cash?
 
-Paycif empowers international travelers to explore Thailand with confidence. Simply scan any PromptPay QR code and pay instantly in your home currency—no Thai Baht needed, no hidden fees, no stress.
+Thailand runs on PromptPay. It's the QR code you see at every food stall, taxi, convenience store, and hotel front desk. Locals scan it with their banking app, and the merchant gets paid in seconds.
 
-We bridge the gap between Thailand's digital payment ecosystem and global travelers, making every transaction feel local while keeping you connected to your own currency.
+But if you're a tourist without a Thai bank account, that QR code is useless to you. You're left:
+- Carrying large amounts of cash
+- Finding ATMs in unfamiliar places
+- Worrying about running out of cash at the wrong time
 
----
-
-## The Problem We Solve
-
-Traveling should be about experiences, not financial anxiety. Here's what we fix:
-
-### 💸 **Running Low on Cash?**
-ATMs are everywhere—but finding one when you need it most? Not always. Long queues, limited operating hours, or simply being in a remote area can leave you stranded without cash. With Paycif, your phone is your wallet. Scan and pay anywhere PromptPay is accepted.
-
-### 🏧 **Avoid ATM Hassles**
-Skip the lines, avoid withdrawal limits, and eliminate the stress of carrying large amounts of cash. Paycif lets you pay directly from your home currency account—securely and instantly.
-
-### 🛍️ **Shop & Dine Freely**
-From street food vendors to luxury boutiques, millions of Thai merchants accept PromptPay. With Paycif, you can join the cashless revolution without needing a Thai bank account.
+Paycif changes that.
 
 ---
 
-## How It Works
+## How Paycif Works
 
-1. **Scan** - Point your camera at any PromptPay QR code
-2. **Confirm** - See the amount in your home currency instantly
-3. **Pay** - One-tap confirmation, done in seconds
-4. **Explore** - Continue your journey, cash-free
+### 1. Scan the Merchant's QR
+You're at a shop, restaurant, or market. The merchant has a PromptPay QR code — the same one Thai locals use. Open Paycif and scan it.
 
----
+### 2. See the Price in Your Currency
+Paycif shows you the amount in both Thai Baht and your home currency — before you confirm.
 
-## Why Travelers Love Paycif
+### 3. Confirm & Pay
+Tap to confirm. Paycif converts your payment to Thai Baht in real time and sends it to the merchant via PromptPay.
 
-✅ **No Cash Needed** - Leave the ATM hunts behind  
-✅ **Transparent Pricing** - Know exactly what you're paying in your currency  
-✅ **Instant Transactions** - Real-time payments, real-time peace of mind  
-✅ **Wide Acceptance** - Works wherever PromptPay is accepted across Thailand  
-✅ **Secure & Trusted** - Bank-level encryption and compliance  
+### 4. Merchant Gets Paid Instantly
+The merchant receives Thai Baht in their account within seconds — the same notification they'd see from any local customer. Done.
 
 ---
 
-## Website Pages
+## Why Paycif?
 
-| Page | Description | Route |
-|------|-------------|-------|
-| Home | Landing page with value proposition and CTA | `/` |
-| How It Works | Step-by-step guide for users | `/how-it-works` |
-| For Travelers | Benefits and features for tourists | `/travelers` |
-| For Merchants | Information for Thai businesses | `/merchants` |
-| Security | Trust and compliance information | `/security` |
-| FAQ | Common questions answered | `/faq` |
-| Contact | Get in touch with support | `/contact` |
-| About Us | Company information | `/about` |
+| Benefit | Description |
+|---------|-------------|
+| **Scan & Pay Like a Local** | See a PromptPay QR at a shop? Open Paycif, scan it, and pay — just like Thai customers do. No cash, no language barrier. |
+| **You Pay in Your Currency** | The price shows in both Thai Baht and your home currency. You pay in yours — the merchant gets Baht. Simple. |
+| **Merchant Gets Paid Instantly** | The shop receives Thai Baht via PromptPay within seconds. They see the exact same notification as any local payment. |
+| **Transparent & Secure** | Exchange rate and total are shown before you confirm. Every transaction is encrypted and compliant with Thai regulations. |
 
 ---
 
-## Built With Modern Technology
+## Pages
 
-- **Frontend**: React 18 + TypeScript + Vite
-- **Styling**: Tailwind CSS + shadcn/ui
-- **State Management**: TanStack Query (React Query)
-- **Routing**: React Router DOM
-- **Icons**: Lucide React
+| Page | Description |
+|------|-------------|
+| **Home** | Main landing page with hero section and benefits |
+| **How It Works** | Step-by-step guide on using Paycif |
+| **About Us** | Company mission, principles, and story |
+| **Contact** | Get in touch for inquiries and partnerships |
+| **Privacy Policy** | Data protection and privacy information |
+| **Terms of Service** | Terms and conditions for using Paycif |
+| **AML Policy** | Anti-money laundering compliance information |
 
 ---
 
-## Contact Us
+## Built With
+
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui components
+- React Router
+- Lucide Icons
+
+---
+
+## Company
 
 **PAYSIF COMPANY LIMITED**  
-📍 Bangkok, Thailand  
-📧 support@paycif.com  
-🌐 www.paycif.com
+Prachin Buri, Thailand
+
+📧 General Inquiries: [contact@paysif.com](mailto:contact@paysif.com)  
+📧 Business & Partnership: [contact@paysif.com](mailto:contact@paysif.com)
+
+We aim to respond to all inquiries within 1–2 business days.
 
 ---
 
-*Travel smarter. Pay simpler. Experience Thailand without boundaries.*
+## Mission
+
+To make paying at Thai merchants as easy for tourists as it is for locals. We believe visitors shouldn't need to carry large amounts of cash, hunt for ATMs, or worry about exchange rates at every purchase. With PromptPay QR already everywhere, all we needed to build was the bridge.
+
+---
+
+© 2024 PAYSIF COMPANY LIMITED. All rights reserved.
